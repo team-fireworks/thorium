@@ -81,7 +81,7 @@ thorium-net: Internal package to implement buffer networking
 ### Welcome To Hell (Upcoming 2025)
 
 Thorium was a product from Team Fireworks' Welcome To Hell fangame engine. The
-game now uses a custom `Architecture` with Mechanics and
+game (will) use a custom `Architecture` with Mechanics and
 [Jecs](https://github.com/Ukendio/jecs).
 
 [![Early Dev Video](https://img.youtube.com/vi/5WySYeGqVu0/0.jpg)](https://www.youtube.com/watch?v=5WySYeGqVu0)
