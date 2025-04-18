@@ -1,0 +1,24 @@
+{
+    "name": "thorium",
+    "version": "0.0.0",
+    "private": true,
+    "devDependencies": {
+        "@rbxts/compiler-types": "latest",
+        "@rbxts/types": "latest",
+        "@rbxts/ui-labs": "^2.3.8",
+        "@typescript-eslint/eslint-plugin": "^8.29.0",
+        "@typescript-eslint/parser": "^8.29.0",
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^10.1.1",
+        "eslint-plugin-prettier": "^5.2.6",
+        "eslint-plugin-roblox-ts": "^0.0.36",
+        "eslint-plugin-simple-import-sort": "^12.1.1",
+        "prettier": "^3.5.3",
+        "rbxts-transform-debug": "github:roblox-aurora/rbxts-transform-debug",
+        "rbxts-transformer-flamework": "^1.2.4",
+        "rbxts-transformer-fs": "2.0.0-alpha.3",
+        "rbxts-transformer-services": "^1.1.1",
+        "roblox-ts": "npm:@wad4444/roblox-ts@^1.0.0",
+        "typescript": "5.5.3"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "tsBuildInfoFile": "out/tsconfig.tsbuildinfo",
+        "target": "ESNext",
+        "jsx": "react",
+        "jsxFactory": "Vide.jsx",
+        "jsxFragmentFactory": "Vide.Fragment",
+        "moduleDetection": "force",
+        "noLib": true,
+        "experimentalDecorators": true,
+        "baseUrl": "src",
+        "rootDir": "src",
+        "module": "commonjs",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "typeRoots": [
+            "node_modules/@rbxts",
+            "node_modules/@flamework",
+            "./types"
+        ],
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "downlevelIteration": true,
+        "outDir": "out/",
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "plugins": [
+            {
+                "transform": "rbxts-transformer-flamework"
+            }
+        ]
+    },
+    "exclude": [
+        "./eslint.config.ts",
+        "./commitlint.config.ts"
+    ]
+}
